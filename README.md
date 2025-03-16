@@ -11,3 +11,4 @@
 |-|-------------|-----------------|
 |0|[Introduction](./notes/Lesson_0.md)|<ul><li>Challenges in earlier approaches of Machine Translation</li><li>History of Attention Mechanism</li><li>Models evolved from Encoder and Decoder</li><li>Course outline</li></ul>|
 |1|[The Main Ideas Behind Transformers and Attention](./notes/Lesson_1.md)|<ul><li>Three main parts of Transformers</li><li>Self-attention explained with an example</li></ul>|
+|2|[The Matrix Math for Calculating Self-Attention](./notes/Lesson_2.md)|<ul><li>Query, Key, Value explained in terms of Database Management Systems</li><li>Computation of Queries, Keys and Values</li></ul>|

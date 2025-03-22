@@ -21,6 +21,7 @@ This repository contains
 |1|[The Main Ideas Behind Transformers and Attention](./notes/Lesson_1.md)|<ul><li>Three main parts of Transformers</li><li>Self-attention explained with an example</li></ul>|
 |2|[The Matrix Math for Calculating Self-Attention](./notes/Lesson_2.md)|<ul><li>Query, Key, Value explained in terms of Database Management Systems</li><li>Computation of Queries, Keys and Values</li></ul>|
 |3|[Coding Self-Attention in PyTroch](./notes/Lesson_3.md)|<ul><li>Create a basic Self-Attention class</li></ul>|
+|4|[Self-Attention vs Masked Self-Attention](./notes/Lesson_4.md)|<ul><li>Word Embeddings: Trained via next word prediction using previous word(s) as context</li><li>Encoder-only model: Context aware embeddings</li><li>Decoder-only model: Generative inputs</li><li>Self-Attention vs Masked Self-Attention</li></ul>|
 
 ## Assignments
 

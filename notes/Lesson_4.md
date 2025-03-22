@@ -14,7 +14,7 @@
 
   - Idea of training is to create similar embedding for **great** and **awesome** as both words appear in similar context in the training data.
   - The below figure shows the initial random value.
-  ![alt text](../images/4_2.png)
+  ![Random embedding values](../images/4_2.png)
 
 - Predicting next word
   - We want each word in the training data to predict the next word.

@@ -25,6 +25,7 @@ This repository contains
 |5|[The Matrix Math for Calculating Masked Self-Attention](./notes/Lesson_5.md)|<ul><li>Self-Attention vs Masked Self-Attention Equation</li><li>Mask value $-inf$</li></ul>|
 |6|[Coding Masked Self-Attention in PyTorch](./notes/Lesson_6.md)|<ul><li>Create a basic Masked Self-Attention class</li></ul>|
 |7|[Encoder-Decoder Attention](./notes/Lesson_7.md)|<ul><li>Encoder-Decoder Attention, aka Cross-Attention in Seq2Seq model</li><li>Relevance in Multi-Modal models</li></ul>|
+|8|[Multi-Head Attention](./notes/Lesson_8.md)|<ul><li>Combine attention values from multiple heads via fully connected network to output attention values same as single head attention</li><li>Alternative approach of reducing weight matrix columns</li></ul>|
 
 ## Assignments
 

@@ -23,9 +23,11 @@ This repository contains
 |3|[Coding Self-Attention in PyTroch](./notes/Lesson_3.md)|<ul><li>Create a basic Self-Attention class</li></ul>|
 |4|[Self-Attention vs Masked Self-Attention](./notes/Lesson_4.md)|<ul><li>Word Embeddings: Trained via next word prediction using previous word(s) as context</li><li>Encoder-only model: Context aware embeddings</li><li>Decoder-only model: Generative inputs</li><li>Self-Attention vs Masked Self-Attention</li></ul>|
 |5|[The Matrix Math for Calculating Masked Self-Attention](./notes/Lesson_5.md)|<ul><li>Self-Attention vs Masked Self-Attention Equation</li><li>Mask value $-inf$</li></ul>|
+|6|[Coding Masked Self-Attention in PyTorch](./notes/Lesson_6.md)|<ul><li>Create a basic Masked Self-Attention class</li></ul>|
 
 ## Assignments
 
   |Lesson|         Assignment        |   Description   |
   |-------|---------------------------|-----------------|
   |#3|[Coding Self-Attention in PyTroch](./notes/Lesson_3.md#notebook)|<ul><li>Create a basic Self-Attention class.</li><li>Verify calculations.</li></ul>|
+  |#6|[Coding Masked Self-Attention in PyTorch](./notes/Lesson_6.md#notebook)|<ul><li>Create a basic Masked Self-Attention class</li></ul>|

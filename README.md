@@ -44,4 +44,4 @@ This repository contains
 
 ## Related Courses
 
-Please visit my [Github page](https://kaushikacharya.github.io/courses/#generative-ai--large-language-models-llm) for other Generative AI/ LLM courses.
+Please visit my [Github page](https://kaushikacharya.github.io/courses/#machine-learning--deep-learning) for other Deep Learning courses.

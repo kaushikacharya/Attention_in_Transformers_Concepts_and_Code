@@ -37,6 +37,11 @@ This repository contains
   |#6|[Coding Masked Self-Attention in PyTorch](./notes/Lesson_6.md#notebook)|<ul><li>Create a basic Masked Self-Attention class</li></ul>|
   |#9|[Coding Encoder-Decoder Attention and Multi-Head Attention in PyTorch](./notes/Lesson_9.md#notebook)|<ul><li>Extended above classes with Encoder-Decoder Attention and Multi-Head Attention</li></ul>|
 
+## Certificate
+
+- [Course Completion Certificate](https://kaushikacharya.github.io/assets/certificates/DeepLearning_ai_Attention_in_Transformers_Concepts_and_Code.pdf)
+- Issued on Mar 2025
+
 ## Related Courses
 
 Please visit my [Github page](https://kaushikacharya.github.io/courses/#generative-ai--large-language-models-llm) for other Generative AI/ LLM courses.

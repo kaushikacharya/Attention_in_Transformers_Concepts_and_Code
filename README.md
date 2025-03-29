@@ -26,6 +26,8 @@ This repository contains
 |6|[Coding Masked Self-Attention in PyTorch](./notes/Lesson_6.md)|<ul><li>Create a basic Masked Self-Attention class</li></ul>|
 |7|[Encoder-Decoder Attention](./notes/Lesson_7.md)|<ul><li>Encoder-Decoder Attention, aka Cross-Attention in Seq2Seq model</li><li>Relevance in Multi-Modal models</li></ul>|
 |8|[Multi-Head Attention](./notes/Lesson_8.md)|<ul><li>Combine attention values from multiple heads via fully connected network to output attention values same as single head attention</li><li>Alternative approach of reducing weight matrix columns</li></ul>|
+|9|[Coding Encoder-Decoder Attention and Multi-Head Attention in PyTorch](./notes/Lesson_9.md)|<ul><li>Implemented Encoder-Decoder Attention and Multi-Head Attention</li></ul>|
+|10|Conclusion|<ul><li>Summarizing the 3 different Attention studied in the course</li></ul>|
 
 ## Assignments
 
@@ -33,3 +35,8 @@ This repository contains
   |-------|---------------------------|-----------------|
   |#3|[Coding Self-Attention in PyTroch](./notes/Lesson_3.md#notebook)|<ul><li>Create a basic Self-Attention class.</li><li>Verify calculations.</li></ul>|
   |#6|[Coding Masked Self-Attention in PyTorch](./notes/Lesson_6.md#notebook)|<ul><li>Create a basic Masked Self-Attention class</li></ul>|
+  |#9|[Coding Encoder-Decoder Attention and Multi-Head Attention in PyTorch](./notes/Lesson_9.md#notebook)|<ul><li>Extended above classes with Encoder-Decoder Attention and Multi-Head Attention</li></ul>|
+
+## Related Courses
+
+Please visit my [Github page](https://kaushikacharya.github.io/courses/#generative-ai--large-language-models-llm) for other Generative AI/ LLM courses.

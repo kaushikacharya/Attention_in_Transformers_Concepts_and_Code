@@ -18,7 +18,8 @@
 - Encoder-Decoder Approach
   - Each input word produces vectors which represent the meaning of a word or words in the context of the sentence
   ![Encoder](../images/0_1.png)
-  - Now referred as contextual embeddings
+  - Now referred as contextual embeddings.
+    - Embeddings of a word not only depends on itself but also on the context i.e. neighbouring words.
   - Decoder uses these vectors to generate output of one word at a time.
   ![Decoder](../images/0_2.png)
   - Decoder 'weights' or '**attends to**' the inputs based on the previous and current word being generated.
@@ -39,11 +40,12 @@
 - The encoder model would go on to be the basis for the BERT algorithm
   - Basis of nearly all of the embedding models
 - The decoder model would go on to the basis for the GPT models
+![Transformer Model Architecture](../images/0_4.png)
 
 ## Course Outline
 
-- Main ideas behind Transformer and Attention
-- Matrix Math for calculating Self-Attention
-- Self-Attention vs Masked Self-Attention
-- Encoder-Decoder Attention
-- Multi-Head Attention
+- [Main ideas behind Transformer and Attention](./Lesson_1.md)
+- [Matrix Math for calculating Self-Attention](./Lesson_2.md)
+- [Self-Attention vs Masked Self-Attention](./Lesson_4.md)
+- [Encoder-Decoder Attention](./Lesson_7.md)
+- [Multi-Head Attention](./Lesson_8.md)

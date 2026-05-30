@@ -5,9 +5,9 @@
   - Objective:
     - Given a guest's surname as query, fetch corresponding room number
     - Query can have spelling error
-  - Query: Term used to search the database
-  - Key: Last name of the guests
-  - Value: Room number
+  - Query (Q): Term used to search the database
+  - Key (K): Last name of the guests
+  - Value (V): Room number
   - Query is compared with all the keys and ranks them
     - Comparison is based on similarity between query and keys
 
@@ -25,3 +25,4 @@
 ![Dot Product Similarities](../images/2_2.png)
 
 - Dot Product is unscaled version of Cosine similarity
+- Even though $\sqrt{d_k}$ scaling doesn't scale dot product in any systemaic way, authors of Transformer noted improved performance empirically.

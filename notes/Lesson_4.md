@@ -1,7 +1,15 @@
 # Self-Attention vs Masked Self-Attention
 
+- Explains the need for giving similar numbers to similar words used in similar ways.
+  - Example:
+    - Pizza is **great**.
+    - Pizza is **awesome**.
 - Explains the requirement for vector representation of words
-  - To represent the different contexts the words can be used
+  - To represent the different contexts the words can be used.
+    - Example
+      - Pizza is **great**.
+      - My cellphone is broken, **great**.
+    - Example shows that same word can be used in positive as well as negative way.
 
 ## Word Embeddings
 
@@ -36,9 +44,12 @@
 
 ## Context Aware Embeddings
 
-- To overcome non-consideration of word order, Transformers use Positional Encoding.
-  ![Context Aware Embeddings](../images/4_7.png)
-- Context aware embeddings can cluster
+![Context Aware Embeddings](../images/4_7.png)
+
+- To overcome non-consideration of word order, Transformers use **Positional Encoding**.
+- This is followed by an **Attention** layer that helps establish relationships among words.
+  - ![Attention layer](../images/attention_ex_1.png)
+- **Context aware embeddings** (also called **contextualized embeddings**) can cluster
   - Similar sentences
     ![Clustering similar sentences](../images/4_8.png)
   - Similar documents
@@ -56,7 +67,9 @@
 - Self-Attention vs Masked Self-Attention
 ![Self-Attention vs Masked Self-Attention](../images/4_12.png)
   - Self-Attention: Considers both before and after words
-  - Masked Self-Attention: Ignored words after the word of interest
+  - Masked Self-Attention: Ignores words after the word of interest
+- Encoder-only Transformer uses Self-attention
+- Decoder-only Transformer uses Masked Self-attention
 
 ## Encoder-Only vs Decoder-Only Transformer
 
